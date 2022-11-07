@@ -1,6 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.right-links {
+  order: 3;
+  margin-right: 10px;
 }
 
 .logo {
@@ -9,11 +22,19 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex; 
+  order: 2;
+}
+
+li {
+  margin: 5px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap
 }
 
 a {
