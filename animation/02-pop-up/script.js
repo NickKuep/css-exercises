@@ -1,3 +1,4 @@
+
 const openButton = document.getElementById('trigger-modal');
 const closeButton = document.getElementById('close-modal');
 const backdrop = document.getElementById('backdrop')
